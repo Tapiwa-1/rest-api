@@ -2,7 +2,7 @@
 Basic API to interact with SPA applications. It allows to view skills,  add skills, edit skill and delete skills
 
 ## Routes
-'''
+```
   GET|HEAD        / ............................................................................................ 
   POST            _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutio…
   GET|HEAD        _ignition/health-check . ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
@@ -13,4 +13,4 @@ Basic API to interact with SPA applications. It allows to view skills,  add skil
   PUT|PATCH       api/v1/skills/{skill} .......................... skills.update › Api\V1\SkillController@update
   DELETE          api/v1/skills/{skill} ........................ skills.destroy › Api\V1\SkillController@destroy
   GET|HEAD        sanctum/csrf-cookie ........ sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
-'''
+```
